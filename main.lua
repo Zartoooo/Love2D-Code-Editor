@@ -15,7 +15,7 @@ local Textbox = Textbox.new(Vector2.new(10, 10), Vector2.new(love.graphics.getWi
 
 function love.load()
     love.window.setTitle("Love2D IDE - Made By @zart0_")
-    local mainFont = love.graphics.newFont("JetBrainsMono.ttf", 12)
+    local mainFont = love.graphics.newFont("assets/fonts/JetBrainsMono.ttf", 12)
     love.graphics.setFont(mainFont)
     Globals.CurrentFont = love.graphics.getFont()
 end
